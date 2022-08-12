@@ -1,0 +1,22 @@
+{
+  "name": "contain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean-install": "rm -rf ./{packages}/*/node_modules node_modules && pnpm i",
+    "dev": "pnpm -F \"lowcode-platform\" dev",
+    "build": "pnpm -F \"lowcode-platform\" build",
+    "dev:ui2": "pnpm -F \"lowcode-platform\" dev",
+    "dev:ui": "pnpm -F \"ui-material\" lowcode:dev",
+    "build:ui": "pnpm -F \"ui-material\" lowcode:build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
