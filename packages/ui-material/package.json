@@ -31,7 +31,7 @@
   "license": "MIT",
   "husky": {
     "hooks": {
-      "pre-commit": "f2elint commit-file-scan"
+      // "pre-commit": "f2elint commit-file-scan"
     }
   },
   "lint-staged": {

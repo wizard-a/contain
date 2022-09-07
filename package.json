@@ -16,6 +16,10 @@
     "node": ">=14",
     "pnpm": ">=7"
   },
+  "volta": {
+    "node": "14.17.3",
+    "yarn": "1.13.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
