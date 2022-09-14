@@ -1,5 +1,4 @@
-import ColorfulButtonMeta from '/Users/qiaojie/Code/github.com/jiechud/contain/packages/ui-material/lowcode/colorful-button/meta'
-import ColorfulInputMeta from '/Users/qiaojie/Code/github.com/jiechud/contain/packages/ui-material/lowcode/colorful-input/meta'
+import FieldInputMeta from '/Users/qiaojie/Code/github.com/jiechud/contain/packages/ui-material/lowcode/field-input/meta'
 
 const componentCategorySort = {};
 ["基础元素","布局容器类","表格类","表单详情类","帮助类","对话框类","业务类","通用","引导","信息输入","信息展示","信息反馈"]
@@ -101,7 +100,7 @@ function fillRealVersion(meta, packageName = 'ui-material', version = '0.1.0', b
   return meta;
 }
 
-const componentMetas = [ColorfulButtonMeta,ColorfulInputMeta];
+const componentMetas = [FieldInputMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {

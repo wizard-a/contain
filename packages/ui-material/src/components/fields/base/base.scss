@@ -1,0 +1,12 @@
+@import '../../../variables.scss';
+
+#{$ui-prefix}-field-base {
+  display: flex;
+
+  flex-direction: column;
+
+  &-title {}
+
+  &-content {}
+
+}
